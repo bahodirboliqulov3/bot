@@ -1,0 +1,278 @@
+﻿Total issues found: 92
+
+[MARKDOWN_MODE] app\bot\handlers\start.py:357
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\admins_manage.py:35
+       await message.answer(text, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\admins_manage.py:45
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\admins_manage.py:75
+       await message.answer(f"тЬЕ **{full_name}** (`{tg_id}`) admin sifatida muvaffaqiyat
+
+[MARKDOWN_MODE] app\bot\handlers\admin\admin_menu.py:23
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\broadcast_handler.py:26
+       await message.answer("ЁЯУв **Kimlarga xabar yubormoqchisiz?**", reply_markup=kb, pa
+
+[MARKDOWN_MODE] app\bot\handlers\admin\broadcast_handler.py:40
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\broadcast_handler.py:73
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\broadcast_handler.py:96
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\broadcast_handler.py:125
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\channels_manage.py:33
+       await message.answer(text, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\channels_manage.py:43
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\channels_manage.py:81
+       await message.answer(f"тЬЕ **\"{data['title']}\" kanali muvaffaqiyatli qo'shildi!*
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:32
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:53
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:69
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:95
+       await message.answer(error_report, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:122
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:143
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\excel_handler.py:169
+       parse_mode="Markdown"
+
+[CHECK_METHOD] app\bot\handlers\admin\groups_manage.py:0
+       get_by_phone() - verify exists in UserRepository
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:61
+       await event.answer(msg_text, reply_markup=get_cancel_keyboard(), parse_mode="Mar
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:64
+       await event.message.answer(msg_text, reply_markup=get_cancel_keyboard(), parse_m
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:84
+       await message.answer(f"ЁЯФО **Qidiruv natijalari ({len(users)} ta):**", parse_mode=
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:103
+       await message.answer(card, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:112
+       await event.answer(msg_text, reply_markup=get_cancel_keyboard(), parse_mode="Mar
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:115
+       await event.message.answer(msg_text, reply_markup=get_cancel_keyboard(), parse_m
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:144
+       await message.answer(f"тЬЕ **{user.full_name}** muvaffaqiyatli {status_str}!", par
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:182
+       await callback.message.answer(f"ЁЯСд **{user.full_name}** da ishlangan test natijal
+
+[MARKDOWN_MODE] app\bot\handlers\admin\students_manage.py:193
+       await callback.message.answer(text, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:202
+       await callback.message.answer(text, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:240
+       await bot.send_message(chat_id=chat_id, text=text, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:258
+       await callback.message.answer(f"тЬЕ **{test.title}** statusi yangilandi: {new_stat
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:271
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:297
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:312
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:315
+       await message.answer("тЭМ Noto'g'ri format! Iltimos, `DD.MM.YYYY HH:MM` formatida 
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:340
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:343
+       await message.answer("тЭМ Noto'g'ri format! Iltimos, `DD.MM.YYYY HH:MM` formatida 
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:355
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\tests_manage.py:378
+       await message.answer(msg, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:100
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:125
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:147
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:168
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:185
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:201
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:216
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:241
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:271
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:319
+       await callback.message.answer(preview, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:383
+       await message.answer(preview, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:397
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:407
+       await message.answer("ЁЯЕ░я╕П **A variant** matnini kiriting:", parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:414
+       await message.answer("ЁЯЕ░я╕П **A variant** matnini kiriting:", parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:421
+       await message.answer("ЁЯЕ▒я╕П **B variant** matnini kiriting:", parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:428
+       await message.answer("ЁЯЕ▓ **C variant** matnini kiriting:", parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:435
+       await message.answer("ЁЯЕ│ **D variant** matnini kiriting:", parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:452
+       await message.answer("тЬЕ **ToтАШgтАШri javob harfini tanlang:**", reply_markup=kb, pa
+
+[MARKDOWN_MODE] app\bot\handlers\admin\test_creator.py:505
+       await message.answer(preview, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\student\achievements.py:40
+       await message.answer(text, parse_mode="Markdown")
+
+[IMPORT_ORDER] app\bot\handlers\student\main_menu.py:121
+       import html is misplaced - move to top of file
+
+[MARKDOWN_MODE] app\bot\handlers\student\saved_tests.py:26
+       await message.answer(f"ЁЯФЦ **Saqlangan testlar ({len(saved)} ta):**", parse_mode="
+
+[MARKDOWN_MODE] app\bot\handlers\student\saved_tests.py:32
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:23
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:83
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:92
+       await message.answer("ЁЯЕ░я╕П **A variant** matnini kiriting:", parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:99
+       await message.answer("ЁЯЕ▒я╕П **B variant** matnini kiriting:", parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:106
+       await message.answer("ЁЯЕ▓ **C variant** matnini kiriting:", parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:113
+       await message.answer("ЁЯЕ│ **D variant** matnini kiriting:", parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:132
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:170
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:197
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:219
+       await message.answer(f"ЁЯУЪ **Siz yaratgan testlar ({len(tests)} ta):**", parse_mod
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:241
+       await message.answer(card, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:250
+       await callback.message.answer(f"тЬЕ Yangi nusxa kodi: `{cloned.code}`", parse_mode
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:262
+       await callback.message.edit_text(f"тЫФ **{test.title}** testi yakunlandi.", parse_
+
+[MARKDOWN_MODE] app\bot\handlers\student\student_test_creator.py:288
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\support.py:60
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\support.py:86
+       await bot.send_message(chat_id=a_id, text=admin_msg, reply_markup=kb, parse_mode
+
+[MARKDOWN_MODE] app\bot\handlers\student\tests_list.py:163
+       await message.answer("ЁЯФР **Test parolini kiriting:**", reply_markup=get_cancel_ke
+
+[MARKDOWN_MODE] app\bot\handlers\student\tests_list.py:194
+       await message.answer_document(document=test.file_id, caption=card_text, reply_ma
+
+[MARKDOWN_MODE] app\bot\handlers\student\tests_list.py:200
+       await message.answer_photo(photo=test.file_id, caption=card_text, reply_markup=k
+
+[MARKDOWN_MODE] app\bot\handlers\student\tests_list.py:205
+       await message.answer(card_text, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\student\tests_list.py:246
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\test_solver.py:123
+       await callback.message.answer_photo(photo=photo_file_id, caption=card_text, repl
+
+[MARKDOWN_MODE] app\bot\handlers\student\test_solver.py:128
+       await callback.message.answer(card_text, reply_markup=kb, parse_mode="Markdown")
+
+[MARKDOWN_MODE] app\bot\handlers\student\test_solver.py:185
+       await callback.message.edit_text(card_text, reply_markup=kb, parse_mode="Markdow
+
+[MARKDOWN_MODE] app\bot\handlers\student\test_solver.py:204
+       await callback.message.edit_text(card_text, reply_markup=kb, parse_mode="Markdow
+
+[MARKDOWN_MODE] app\bot\handlers\student\test_solver.py:235
+       parse_mode="Markdown"
+
+[MARKDOWN_MODE] app\bot\handlers\student\test_solver.py:248
+       parse_mode="Markdown"
+
+[IMPORT_ORDER] app\bot\handlers\student\test_solver.py:270
+       import html is misplaced - move to top of file
+
