@@ -1,0 +1,15 @@
+[Unit]
+Description=Telegram Test Platform Bot Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/telegram_test_platform_full_project
+ExecStart=/root/telegram_test_platform_full_project/venv/bin/python -m app.main
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
